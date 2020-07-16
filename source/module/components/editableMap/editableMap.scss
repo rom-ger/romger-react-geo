@@ -1,0 +1,15 @@
+.editable-map {
+  width: 100%;
+
+  .leaflet-container {
+    height: 600px;
+  }
+
+  .leaflet-draw-toolbar a {
+    background-image: linear-gradient(transparent, transparent), url('assets/images/map/spritesheet.svg');
+  }
+
+  .leaflet-control-geocoder {
+    display: none;
+  }
+}

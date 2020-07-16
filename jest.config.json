@@ -1,0 +1,40 @@
+{
+  "verbose": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "source/**/*.{ts,tsx}",
+    "!source/**/*.spec.{ts,tsx}",
+    "!source/**/*.d.{ts,tsx}",
+    "!source/**/templates/**/*{ts,tsx}",
+    "!source/*{ts,tsx}",
+    "!source/store/*{ts,tsx}",
+    "!source/services/*{ts,tsx}",
+    "!source/**/store/*{ts,tsx}",
+    "!source/**/notFoundContainer.tsx",
+    "!source/**/mainPageRedirectContainer.tsx",
+    "!source/config/**/*.{ts,tsx}",
+    "!source/**/authServices.ts"
+  ],
+  "scriptPreprocessor": "./node_modules/ts-jest/preprocessor.js",
+  "testRegex": "(/spec/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ],
+  "updateSnapshot": true,
+  "moduleNameMapper": {
+    "^Components/(.*)": "./source/modules/$1"
+  },
+  "globals": {
+    "window": {},
+    "ts-jest": {
+      "tsConfigFile": "./tsconfig.json"
+    }
+  },
+  "testURL": "http://localhost/",
+  "setupFiles": [
+    "<rootDir>/jest.stubs.js"
+  ],
+  "setupTestFrameworkScriptFile": "./jest.tests.js"
+}

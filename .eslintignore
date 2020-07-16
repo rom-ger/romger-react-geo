@@ -1,0 +1,9 @@
+gulpfile.js
+webpack.config.js
+node_modules/**/*.*
+assets/**/*.*
+*.min.js
+lib
+indexHtmlConfigTemplate.jsx
+indexHtmlConfigComponent.js
+**/*lz-string.js

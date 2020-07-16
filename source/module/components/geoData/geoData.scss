@@ -1,0 +1,31 @@
+.geo-data {
+  &__input-row {
+    width: 100%;
+    margin: 0;
+
+    .geo-data__input-block {
+      margin-bottom: 12px;
+      &:not(:last-child) {
+        width: 250px;
+        margin-right: 20px;
+      }
+    }
+
+    .ws-dictionary-select {
+      margin-bottom: 0;
+    }
+  }
+
+  &__color-picker {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__search-wrap {
+    margin: 0 24px 0 0;
+
+    .input-block {
+      margin-bottom: 12px;
+    }
+  }
+}

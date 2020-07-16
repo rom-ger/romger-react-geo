@@ -1,0 +1,69 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["react"],
+    "settings": {
+        "react": {
+            "version": "15.4.2"
+        }
+    },
+    "rules": {
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "all",
+                "ignoreRestSiblings": false
+            }
+        ],
+        "no-magic-numbers": [
+            "error",
+            {
+                "ignore": [-1, 0, 1]
+            }
+        ],
+        "brace-style": ["error", "stroustrup"],
+        "no-var": ["error"],
+        "no-loop-func": ["error"],
+        "default-case": ["error"],
+        "eqeqeq": ["error", "always"],
+        "no-throw-literal": ["error"],
+        "radix": ["error"],
+        "prefer-arrow-callback": ["error"],
+        "no-extra-boolean-cast": ["error"],
+        "indent": ["error", 4],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-console": ["warn"],
+        "no-useless-escape": 0,
+        "react/prop-types": 0,
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "never",
+                "exports": "never",
+                "functions": "ignore"
+            }
+        ],
+        "react/no-string-refs": 0,
+        "react/no-find-dom-node": 0,
+        "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
+        "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
+        "react/jsx-closing-bracket-location": [2, "line-aligned"]
+    }
+}
