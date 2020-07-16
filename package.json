@@ -31,7 +31,7 @@
         "@types/react-dom": "16.8.4",
         "@types/react-leaflet": "2.5.1",
         "awesome-typescript-loader": "5.2.1",
-        "axios": "0.18.0",
+        "axios": "0.19.2",
         "babel-cli": "6.26.0",
         "babel-core": "6.26.0",
         "babel-eslint": "8.2.6",
