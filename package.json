@@ -1,6 +1,6 @@
 {
     "name": "@romger/react-geo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "@romger/react-geo",
     "repository": {
         "type": "git",
@@ -18,7 +18,7 @@
         "@romger/react-base-components": "1.0.1",
         "@romger/react-global-module": "1.0.0",
         "@romger/react-input": "1.0.2",
-        "@romger/react-select": "1.0.0",
+        "@romger/react-select": "1.0.1",
         "@types/classnames": "2.2.9",
         "@types/geojson": "7946.0.7",
         "@types/jest": "22.2.3",
